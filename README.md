@@ -13,9 +13,9 @@ Esta é uma série de programas para cadastro de Clientes e vendedores.
 11)  CPY_ID_ARQ_CSV.CPY   - copybook d com informações do caminho do arquivo de CSV gerado na distribuição quue por padrão é gerado no  diretório C:\code\cobol\db\
 12)  FS-ARQ-CLIENTE.CPY - layout do arquivo de clientes
 13)  FS-ARQ-VENDEDOR.CPY - layout do arquivo de vendedores
-========================================================================
-========================= I N S T R U Ç Ã O ============================
-========================================================================
+
+Instruções:
+
 1) Criar o diretório C:\code\cobol\db\
 2) Compilar os módulos na sequencia 6) 7) 5) 4) 3) 2) e por ultimo executar o CBL_MENU.
 3) Os arquivos de cliente e vendedores serão gerados no diretório C:\code\cobol\db\
@@ -44,9 +44,8 @@ Com:
              access mode        is dynamic
              lock mode          is manual
 
-=======================================================================
-============================ P E N D Ê N C I A S ======================
-=======================================================================
+Pendências:
+
 1) Validação de CPF e CNPJ
 2)Adicionar paginação, ordernação e filtros aos relatórios de vendedores e clientes
 
